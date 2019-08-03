@@ -23,11 +23,9 @@ func sorter(inputan string) string {
 	sort.Strings(hurufMati)
 	huruf = append(hurufHidup, hurufMati...)
 	return strings.Join(huruf, "")
-	//fmt.Println(huruf)
 }
 
 func main() {
 	fmt.Println(sorter("omama"))
 	fmt.Println(sorter("osama"))
-
 }
